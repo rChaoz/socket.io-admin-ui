@@ -81,7 +81,7 @@ const pushEvents = (array, event) => {
 // group events by each 10 seconds
 // see: https://www.chartjs.org/docs/latest/general/performance.html#decimation
 function roundedTimestamp(timestamp) {
-  return timestamp - (timestamp % 10_000);
+  return timestamp - (timestamp % 10000);
 }
 
 export default {
